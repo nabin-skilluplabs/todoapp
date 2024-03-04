@@ -1,0 +1,76 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+.todo-container {
+    width: 100%;
+    max-width: 635px;
+}   
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    flex: 1;
+}
+form button {
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.lists div {
+    background-color: #d9d9d9;
+    padding: 10px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.lists div span {
+    flex: 1;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.footer button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.footer button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
