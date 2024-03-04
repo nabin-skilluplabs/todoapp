@@ -32,6 +32,9 @@ input[type="text"] {
     padding: 10px;
     flex: 1;
 }
+input[type="text"].error-input {
+    border-color: red;
+}
 form button {
     background-color: black;
     color: #fff;
@@ -47,6 +50,9 @@ form button:hover {
 }
 
 
+.lists {
+    min-height: calc(41px * 5);
+}
 .lists div {
     background-color: #d9d9d9;
     padding: 10px;
